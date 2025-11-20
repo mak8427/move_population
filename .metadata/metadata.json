@@ -1,0 +1,12 @@
+﻿{
+  "name" : "Move them",
+  "id" : "mak.movethem",
+  "version" : "1.1",
+  "game_id" : "eu5",
+  "picture" : "thumbnail.png",
+  "supported_game_version" : "1.*",
+  "short_description" : "move populations between locations",
+  "tags" : [ "Gameplay" ],
+  "relationships" : [ ],
+  "game_custom_data" : { }
+}
