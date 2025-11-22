@@ -25,7 +25,8 @@
 		}
 		enabled = {
 			location_population_percentage > 0.05
-		}
+            not = { has_variable = mvthem_move_pop_active }
+        }
 		map_color = define:NMapColors|MAP_COLOR_HIGH
 	}
 
@@ -66,7 +67,8 @@
 		enabled = {
 			population >= 1
 			location_population_percentage < 1
-		}
+            not = { has_variable = mvthem_move_pop_active }
+        }
 		map_color = define:NMapColors|MAP_COLOR_HIGH
 	}
 

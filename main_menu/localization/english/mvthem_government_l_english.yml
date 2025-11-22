@@ -25,3 +25,5 @@
  move_population_between_locations_no_destinations:0 "@trigger_no!No valid destination [location|e] available."
  no_culture_available:0 "@trigger_no!No [culture|e] from the selected source is eligible."
  no_religions_available:0 "@trigger_no!No [religion|e] from the selected source is eligible."
+ mvthem_move_pop_active:0 "Already Moving Population"
+ mvthem_move_pop_active_desc:0 "You are already in the process of moving population between locations."
